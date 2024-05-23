@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<script src="./script.js"></script>
+</head>
+
+<body>
+  <nav class="nav-bar">
+
+    <div class="topnav-right">
+      <a href="./about.html">A PROPOS</a>
+      <a href="./catalog.html">CATALOGUE</a>
+      <a href="./contact.html">CONTACT</a>
+    </div>
+
+    <a href="javascript:void(0);" onclick="toggleBurgerMenu()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+
+  <a href="./index.html"><img src="./images/contact.png" alt="logo Gaïa contact" style="display: flex; width: 1000px; padding: 10px 10px 10px 10px;margin : 20px 200px ;"></a>
+   
+    <div class="contact-section">
+        <form>
+        <label for="firstname">Prénom</label>
+        <input type="text" name="fistname" id="firstname" class="input" placeholder="Votre prénom">
+        <label for="lastname">Nom</label>
+        <input type="text" name="lastname" id="lastname" class="input" placeholder="Votre nom">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" class="input" placeholder="Votre adresse e-mail">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" class="input" placeholder="Votre message" cols="30" rows="10">
+        </textarea>
+        
+        <input type="submit" value="Envoyer" class="submit-btn">
+        </form>
+    </div>
+
+</body>
+
+<footer>
+    <p>Copyright Douha Zrouga Attia 2024</p>
+</footer>
+
+</html>
